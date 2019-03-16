@@ -1,0 +1,294 @@
+{
+  "30-Year Fixed-Rate FHA": {
+    "loan_type": {"purchase": true, "reverse": false, "cash-out": false,
+      "home-equity": false, "rate_term": false},
+    "fixed_rate": true,
+    "states": {
+      "AL": true, "AK": true, "AR": true, "AZ": true, "CA": true, "CO": true,
+      "CT": true, "DE": true, "FL": true, "GA": true, "HI": true, "ID": true,
+      "IL": true, "IN": true, "IA": true, "KS": true, "KY": true, "LA": true,
+      "ME": true, "MD": true, "MA": true, "MI": true, "MN": true, "MS": true,
+      "MO": true, "MT": true, "NE": true, "NV": true, "NH": true, "NJ": true,
+      "NM": true, "NY": true, "NC": true, "ND": true, "OH": true, "OK": true,
+      "OR": true, "PA": true, "RI": true, "SC": true, "SD": true, "TN": true,
+      "TX": true, "UT": true, "VT": true, "VA": true, "WA": true, "WV": true,
+      "WI": true, "WY": true
+    },
+    "building_type": {"single_family": true, "townhome": false, "condominium": false,
+      "multi_family": false, "manufactured": false, "other": false},
+    "residence_type": {"primary": true, "secondary": true, "rental": false},
+    "minimum_amount": 0,
+    "maximum_amount": 453101,
+    "military": false,
+    "foreclosure": 0,
+    "bankruptcy": 2,
+    "minimum_age": 62,
+    "term": 30,
+    "credit": {
+      "500": {
+        "dti": 43,
+        "rate": 0.0425,
+        "down_payment": 0.10,
+        "ltv": 0.90
+      },
+      "580": {
+        "dti": 43,
+        "rate": 0.0225,
+        "down_payment": 0.03,
+        "ltv": 0.97
+      }
+    },
+    "rate": 0.04375,
+    "apr": 0.04469,
+    "payment": 1136
+  },
+
+  "30-Year Fixed-Rate": {
+    "loan_type": {"purchase": true, "reverse": false, "cash-out": false,
+      "home-equity": false, "rate_term": false},
+    "fixed_rate": true,
+    "states": {
+      "AL": true, "AK": true, "AR": true, "AZ": true, "CA": true, "CO": true,
+      "CT": true, "DE": true, "FL": true, "GA": true, "HI": false, "ID": true,
+      "IL": true, "IN": true, "IA": true, "KS": false, "KY": true, "LA": false,
+      "ME": true, "MD": true, "MA": true, "MI": true, "MN": true, "MS": false,
+      "MO": false, "MT": true, "NE": true, "NV": true, "NH": true, "NJ": true,
+      "NM": true, "NY": true, "NC": true, "ND": true, "OH": false, "OK": false,
+      "OR": true, "PA": true, "RI": false, "SC": true, "SD": true, "TN": true,
+      "TX": false, "UT": true, "VT": true, "VA": true, "WA": true, "WV": true,
+      "WI": true, "WY": true
+    },
+    "building_type": {"single_family": true, "townhome": false, "condominium": false,
+      "multi_family": false, "manufactured": false, "other": false},
+    "residence_type": {"primary": true, "secondary": false, "rental": false},
+    "minimum_amount": 75000,
+    "maximum_amount": 800000,
+    "military": false,
+    "foreclosure": 0,
+    "bankruptcy": 0,
+    "minimum_age": 0,
+    "term": 30,
+    "credit": {
+      "640": {
+        "dti": 50,
+        "rate": 0.05375,
+        "down_payment": 0.10,
+        "ltv": 0.90
+      },
+      "700": {
+        "dti": 45,
+        "rate": 0.04125,
+        "down_payment": 0.03,
+        "ltv": 0.97
+      }
+    },
+    "rate": 0.04125,
+    "apr": 0.04474,
+    "payment": 1058
+  },
+
+  "30-Year Fixed-Rate VA": {
+    "loan_type": {"purchase": true, "reverse": false, "cash-out": false,
+      "home-equity": false, "rate_term": false},
+    "fixed_rate": true,
+    "states": {
+      "AL": true, "AK": true, "AR": true, "AZ": true, "CA": true, "CO": true,
+      "CT": true, "DE": true, "FL": true, "GA": true, "HI": true, "ID": true,
+      "IL": true, "IN": true, "IA": true, "KS": true, "KY": true, "LA": true,
+      "ME": true, "MD": true, "MA": true, "MI": true, "MN": true, "MS": true,
+      "MO": true, "MT": true, "NE": true, "NV": true, "NH": true, "NJ": true,
+      "NM": true, "NY": true, "NC": true, "ND": true, "OH": true, "OK": true,
+      "OR": true, "PA": true, "RI": true, "SC": true, "SD": true, "TN": true,
+      "TX": true, "UT": true, "VT": true, "VA": true, "WA": true, "WV": true,
+      "WI": true, "WY": true
+    },
+    "building_type": {"single_family": true, "townhome": false, "condominium": false,
+      "multi_family": false, "manufactured": false, "other": false},
+    "residence_type": {"primary": true, "secondary": false, "rental": false},
+    "minimum_amount": 0,
+    "maximum_amount": 10000000,
+    "military": true,
+    "foreclosure": null,
+    "bankruptcy": null,
+    "minimum_age": 0,
+    "term": 30,
+    "credit": {
+      "620": {
+        "dti": 41,
+        "rate": 0.04125,
+        "down_payment": 0,
+        "ltv": 1
+      }
+    }
+  },
+
+  "20-Year Fixed-Rate": {
+    "loan_type": {"purchase": true, "reverse": false, "cash-out": false,
+      "home-equity": false, "rate_term": false},
+    "fixed_rate": true,
+    "states": {
+      "AL": true, "AK": true, "AR": true, "AZ": true, "CA": true, "CO": true,
+      "CT": true, "DE": true, "FL": true, "GA": true, "HI": false, "ID": true,
+      "IL": true, "IN": true, "IA": true, "KS": false, "KY": true, "LA": false,
+      "ME": true, "MD": true, "MA": true, "MI": true, "MN": true, "MS": false,
+      "MO": false, "MT": true, "NE": true, "NV": true, "NH": true, "NJ": true,
+      "NM": true, "NY": true, "NC": true, "ND": true, "OH": false, "OK": false,
+      "OR": true, "PA": true, "RI": false, "SC": true, "SD": true, "TN": true,
+      "TX": false, "UT": true, "VT": true, "VA": true, "WA": true, "WV": true,
+      "WI": true, "WY": true
+    },
+    "building_type": {"single_family": true, "townhome": true, "condominium": true,
+      "multi_family": true, "manufactured": false, "other": false},
+    "residence_type": {"primary": true, "secondary": true, "rental": false},
+    "minimum_amount": 75000,
+    "maximum_amount": 2000000,
+    "military": false,
+    "foreclosure": 0,
+    "bankruptcy": 0,
+    "minimum_age": 0,
+    "term": 20,
+    "credit": {
+      "640": {
+        "dti": 40,
+        "rate": 0.04275,
+        "down_payment": 0.05,
+        "ltv": 0.95
+      },
+      "700": {
+        "dti": 45,
+        "rate": 0.03725,
+        "down_payment": 0.03,
+        "ltv": 0.97
+      }
+    },
+    "rate": 0.04250,
+    "apr": 0.04378,
+    "payment": 1698
+  },
+
+  "30-Year Fixed-Rate VA Refi": {
+    "loan_type": {"purchase": false, "reverse": false, "cash-out": true,
+      "home-equity": false, "rate_term": true},
+    "fixed_rate": true,
+    "states": {
+      "AL": true, "AK": true, "AR": true, "AZ": true, "CA": true, "CO": true,
+      "CT": true, "DE": true, "FL": true, "GA": true, "HI": true, "ID": true,
+      "IL": true, "IN": true, "IA": true, "KS": true, "KY": true, "LA": true,
+      "ME": true, "MD": true, "MA": true, "MI": true, "MN": true, "MS": true,
+      "MO": true, "MT": true, "NE": true, "NV": true, "NH": true, "NJ": true,
+      "NM": true, "NY": true, "NC": true, "ND": true, "OH": true, "OK": true,
+      "OR": true, "PA": true, "RI": true, "SC": true, "SD": true, "TN": true,
+      "TX": true, "UT": true, "VT": true, "VA": true, "WA": true, "WV": true,
+      "WI": true, "WY": true
+    },
+    "building_type": {"single_family": true, "townhome": false, "condominium": false,
+      "multi_family": false, "manufactured": false, "other": false},
+    "residence_type": {"primary": true, "secondary": false, "rental": false},
+    "minimum_amount": 0,
+    "maximum_amount": 10000000,
+    "military": true,
+    "foreclosure": null,
+    "bankruptcy": null,
+    "minimum_age": 0,
+    "term": 30,
+    "credit": {
+      "640": {
+        "dti": 43,
+        "rate": 0.04250,
+        "down_payment": null,
+        "ltv": 1
+      }
+    }
+  },
+
+  "20-Year Fixed-Rate Refi": {
+    "loan_type": {"purchase": false, "reverse": false, "cash-out": false,
+      "home-equity": false, "rate_term": true},
+    "fixed_rate": true,
+    "states": {
+      "AL": true, "AK": true, "AR": true, "AZ": true, "CA": true, "CO": true,
+      "CT": true, "DE": true, "FL": true, "GA": true, "HI": false, "ID": true,
+      "IL": true, "IN": true, "IA": true, "KS": false, "KY": true, "LA": false,
+      "ME": true, "MD": true, "MA": true, "MI": true, "MN": true, "MS": false,
+      "MO": false, "MT": true, "NE": true, "NV": true, "NH": true, "NJ": true,
+      "NM": true, "NY": true, "NC": true, "ND": true, "OH": false, "OK": false,
+      "OR": true, "PA": true, "RI": false, "SC": true, "SD": true, "TN": true,
+      "TX": false, "UT": true, "VT": true, "VA": true, "WA": true, "WV": true,
+      "WI": true, "WY": true
+    },
+    "building_type": {"single_family": true, "townhome": true, "condominium": true,
+      "multi_family": true, "manufactured": false, "other": false},
+    "residence_type": {"primary": true, "secondary": true, "rental": false},
+    "minimum_amount": 50000,
+    "maximum_amount": 1000000,
+    "military": false,
+    "foreclosure": 0,
+    "bankruptcy": 2,
+    "minimum_age": 0,
+    "term": 20,
+    "credit": {
+      "640": {
+        "dti": 50,
+        "rate": 0.04375,
+        "down_payment": null,
+        "ltv": 0.90
+      },
+      "700": {
+        "dti": 45,
+        "rate": 0.03125,
+        "down_payment": null,
+        "ltv": 0.5
+      }
+    }
+  },
+
+  "7/1 ARM": {
+    "loan_type": {"purchase": true, "reverse": false, "cash-out": false,
+      "home-equity": false, "rate_term": false},
+    "fixed_rate": false,
+    "states": {
+      "AL": true, "AK": true, "AR": true, "AZ": true, "CA": true, "CO": true,
+      "CT": true, "DE": true, "FL": true, "GA": true, "HI": false, "ID": true,
+      "IL": true, "IN": true, "IA": true, "KS": false, "KY": true, "LA": false,
+      "ME": true, "MD": true, "MA": true, "MI": true, "MN": true, "MS": false,
+      "MO": false, "MT": true, "NE": true, "NV": true, "NH": true, "NJ": true,
+      "NM": true, "NY": true, "NC": true, "ND": true, "OH": false, "OK": false,
+      "OR": true, "PA": true, "RI": false, "SC": true, "SD": true, "TN": true,
+      "TX": false, "UT": true, "VT": true, "VA": true, "WA": true, "WV": true,
+      "WI": true, "WY": true
+    },
+    "building_type": {"single_family": true, "townhome": false, "condominium": false,
+      "multi_family": true, "manufactured": false, "other": false},
+    "residence_type": {"primary": true, "secondary": false, "rental": false},
+    "minimum_amount": 100000,
+    "maximum_amount": 2000000,
+    "military": false,
+    "foreclosure": 0,
+    "bankruptcy": 1,
+    "minimum_age": 0,
+    "term": {
+      "initial": 7,
+      "adjustment": 1
+    },
+    "credit": {
+      "600": {
+        "dti": 35,
+        "rate": 0.05750,
+        "down_payment": 0.10,
+        "ltv": 0.90
+      },
+      "640": {
+        "dti": 40,
+        "rate": 0.04875,
+        "down_payment": 0.05,
+        "ltv": 0.95
+      },
+      "760": {
+        "dti": 45,
+        "rate": 0.0350,
+        "down_payment": 0.03,
+        "ltv": 0.97
+      }
+    }
+  }
+}

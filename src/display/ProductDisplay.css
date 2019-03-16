@@ -1,0 +1,112 @@
+.productrec {
+  text-align: center;
+  background-color: white;
+}
+
+.productrec .top {
+  background-color: white;
+  padding-top: 20px;
+}
+
+.productrec .mainproduct {
+  width: 800px;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 2px solid lightgrey;
+  position: relative;
+}
+
+.productrec .mainproduct .title {
+  background-color: midnightblue;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.productrec .rightcol {
+  height: inherit;
+  width: 25%;
+  float: left;
+}
+
+.productrec .mainproduct .rightcol img {
+  height: 225px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.productrec .mainproduct .leftcol h1 {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.productrec .mainproduct table {
+  font-size: 20px;
+  width: 50%;
+  text-align: left;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.productrec .product {
+  background-color: white;
+  color: midnightblue;
+}
+
+.productrec .alternative .product {
+  display: inline-grid;
+  margin: 10px;
+}
+
+.productrec tbody .tright {
+  text-align: right;
+}
+
+.productrec footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.productrec .alternative {
+  background-color: midnightblue;
+  width: 100%;
+  margin: auto;
+}
+
+.productrec .alternative .product {
+  padding-top: 10px;
+  border: 2px solid lightgrey;
+  width: 400px;
+  height: 150px;
+}
+
+.productrec .alternative .title {
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 100%;
+}
+
+.productrec .alternative .rightcol img {
+  height: 125px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.productrec .alternative .leftcol h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.productrec .alternative table {
+  font-size: 16px;
+  width: 60%;
+  text-align: left;
+  margin: auto;
+  margin-top: 20px;
+}
